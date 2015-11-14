@@ -1,0 +1,28 @@
+{
+	"name": "cucumber",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "stevejpurves <http://github.com/stevejpurves>",
+	"categories": [
+		"Languages",
+		"Snippets"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "feature",
+			"aliases": ["Gherkin", "feature"],
+			"extensions": [".feature"]
+		}],
+		"grammars": [{
+			"language": "feature",
+			"scopeName": "text.gherkin.feature",
+			"path": "./syntaxes/feature.tmLanguage"
+		}],
+		"snippets": [{
+			"language":"feature",
+			"path": "./snippets/snippets.json"
+		}]
+	}
+}

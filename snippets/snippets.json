@@ -1,0 +1,68 @@
+{
+	"steps": {
+		"prefix": "steps",
+		"body": "steps &lt;&lt;-CUCUMBER\r\n${1:`pbpaste`}\r\nCUCUMBER",
+		"description": "Cucumber Multiline Steps",
+		"scope": "source.ruby.rspec.cucumber.steps"
+	},
+	"giv": {
+		"prefix": "giv",
+		"body": "Given ${1:context}",
+		"description": "When Step (Plaintext)",
+		"scope": "text.gherkin.feature"
+	},	
+    "giv-rb": {
+		"prefix": "giv",
+		"body": "Given ${1:step name} do\r\n  $0\r\nend",
+		"description": "Given Step (Ruby)",
+		"scope": "source.ruby.rspec.cucumber.steps"
+	},
+	"sc": {
+		"prefix": "sc",
+		"body": "Scenario: ${1:title}\r\n$0",
+		"description": "Scenario (heading only)",
+		"scope": "text.gherkin.feature"
+	},
+	"sco": {
+		"prefix": "sco",
+		"body": "Scenario Outline: ${1:title}\r\n  Given ${2:context}\r\n  When ${3:event}\r\n  Then ${4:outcome}",
+		"description": "Scenario Outline",
+		"scope": "text.gherkin.feature"
+	},	
+	"sce": {
+		"prefix": "sce",
+		"body": "Scenario: ${1:title}\r\n  Given ${2:context}\r\n  When ${3:event}\r\n  Then ${4:outcome}\r\n$0\r\n$0",
+		"description": "Scenario",
+		"scope": "text.gherkin.feature"
+	},
+	"fea": {
+		"prefix": "fea",
+		"body": "Feature: ${1:`#!/usr/bin/env ruby\r\n\ttitle = (ENV['TM_FILENAME'] || 'title').gsub(/\\..*$/, '').gsub(/[-_]/, ' ')\r\n\tputs title[0..0].upcase + title[1..-1].downcase\r\n\t`}\r\n  In order to ${2:value}\r\n  As a ${3:role}\r\n  I want ${4:feature}\r\n\r\n  $0",
+		"description": "Feature",
+		"scope": "text.gherkin.feature"
+	},	
+	"the": {
+		"prefix": "the",
+		"body": "Then ${1:outcome}",
+		"description": "Then Step (Plaintext)",
+		"scope": "text.gherkin.feature"
+	},
+	"the-rb": {
+		"prefix": "the",
+		"body": "Then ${1:step name} do\r\n  $0\r\nend",
+		"description": "Then Step (Ruby)",
+		"scope": "source.ruby.rspec.cucumber.steps"
+	},
+	"whe": {
+		"prefix": "whe",
+		"body": "When ${1:event}",
+		"description": "When Step (Plaintext)",
+		"scope": "text.gherkin.feature"
+	},
+	"whe-rb": {
+		"prefix": "whe",
+		"body": "When ${1:step name} do\r\n  $0\r\nend",
+		"description": "When Step (Ruby)",
+		"scope": "source.ruby.rspec.cucumber.steps"
+	},
+}
