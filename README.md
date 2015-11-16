@@ -39,4 +39,4 @@ Please contribute by posting issues or pull requests on the extension's [github 
 
 ## Author
 
-This extension was built by Steve Purves mailto:stevejpurves@gmail.com
+This extension was built by Steve Purves (stevejpurves@gmail.com)
