@@ -4,7 +4,22 @@
 	"engines": {
 		"vscode": ">=0.9.0-pre.1"
 	},
+	"displayName":"Cucumber (Gherkin) Syntax and Snippets",
+	"description":"Snytax colouring and snippets for working with cucumber .feature files and steps in ruby",
 	"publisher": "stevejpurves <http://github.com/stevejpurves>",
+	"icon":"images/cukes.png",
+	"galleryBanner": {
+        "color": "#00A818",
+        "theme": "light"
+    },
+    "bugs": {
+        "url": "https://github.com/stevejpurves/vscode-cucumber/issues"
+    },
+    "homepage": "https://github.com/stevejpurves/vscode-cucumber/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stevejpurves/vscode-cucumber.git"
+    },
 	"categories": [
 		"Languages",
 		"Snippets"
