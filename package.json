@@ -6,7 +6,7 @@
 	},
 	"displayName":"Cucumber (Gherkin) Syntax and Snippets",
 	"description":"Snytax colouring and snippets for working with cucumber .feature files and steps in ruby",
-	"publisher": "stevejpurves <http://github.com/stevejpurves>",
+	"publisher": "stevejpurves",
 	"icon":"images/cukes.png",
 	"galleryBanner": {
         "color": "#00A818",
