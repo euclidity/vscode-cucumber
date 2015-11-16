@@ -1,11 +1,11 @@
 {
 	"name": "cucumber",
-	"version": "0.0.1",
+	"version": "0.9.0",
 	"engines": {
 		"vscode": ">=0.9.0-pre.1"
 	},
 	"displayName":"Cucumber (Gherkin) Syntax and Snippets",
-	"description":"Snytax colouring and snippets for working with cucumber .feature files and steps in ruby",
+	"description":"Syntax colouring and snippets for working with cucumber .feature files and ruby step definitions",
 	"publisher": "stevejpurves",
 	"icon":"images/cukes.png",
 	"galleryBanner": {
