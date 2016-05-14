@@ -25,19 +25,29 @@
 	},
 	"sco": {
 		"prefix": "sco",
-		"body": "Scenario Outline: ${1:title}\r\n  Given ${2:context}\r\n  When ${3:event}\r\n  Then ${4:outcome}",
+		"body": ["Scenario Outline: ${1:title}",
+				"\tGiven ${1:context}",
+				"\tWhen ${1:event}",
+				"\tThen ${1:outcome}"],
 		"description": "Scenario Outline",
 		"scope": "text.gherkin.feature"
 	},	
 	"sce": {
 		"prefix": "sce",
-		"body": "Scenario: ${1:title}\r\n  Given ${2:context}\r\n  When ${3:event}\r\n  Then ${4:outcome}\r\n$0\r\n$0",
+		"body": ["Scenario: ${1:title}",
+				"\tGiven ${2:context}",
+				"\tWhen ${3:event}",
+				"\tThen ${4:outcome}\r\n$0\r\n$0"],
 		"description": "Scenario",
 		"scope": "text.gherkin.feature"
 	},
 	"fea": {
 		"prefix": "fea",
-		"body": "Feature: ${1:title}\r\n  In order to ${2:value}\r\n  As a ${3:role}\r\n  I want ${4:feature}\r\n\r\n  $0",
+		"body": ["Feature: ${1:title}",
+				"\tIn order to ${2:value}",
+				"\tAs a ${3:role}",
+				"\tI want ${4:feature}\r\n",
+				"\t$0"],
 		"description": "Feature",
 		"scope": "text.gherkin.feature"
 	},
