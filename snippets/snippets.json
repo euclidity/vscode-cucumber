@@ -37,10 +37,10 @@
 	},
 	"fea": {
 		"prefix": "fea",
-		"body": "Feature: ${1:`#!/usr/bin/env ruby\r\n\ttitle = (ENV['TM_FILENAME'] || 'title').gsub(/\\..*$/, '').gsub(/[-_]/, ' ')\r\n\tputs title[0..0].upcase + title[1..-1].downcase\r\n\t`}\r\n  In order to ${2:value}\r\n  As a ${3:role}\r\n  I want ${4:feature}\r\n\r\n  $0",
+		"body": "Feature: ${1:title}\r\n  In order to ${2:value}\r\n  As a ${3:role}\r\n  I want ${4:feature}\r\n\r\n  $0",
 		"description": "Feature",
 		"scope": "text.gherkin.feature"
-	},	
+	},
 	"the": {
 		"prefix": "the",
 		"body": "Then ${1:outcome}",
