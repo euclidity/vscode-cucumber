@@ -21,13 +21,11 @@ Code snippets can be inserted as with other languages (e.g. Ctrl+Space and typin
  - You will need to install Visual Studio Code 0.10.0 or higher.
  - From the command palette Ctrl-Shift-P (Windows, Linux) or Cmd-Shift-P (OSX) select Install Extension, choose Cucumber and reload Visual Studio Code.
 
-## Known Issues
-
- - the line comments keyboard shortcut is not working
-
 ## Todo
 
  - Goto/peek step definition from a step in .feature file
+ - `and` steps
+ - `but` steps
 
 ## Acknowledgements
 
@@ -37,6 +35,10 @@ This extension uses the TextMate Syntax and Snippet definitions for Cucumber fro
 
 Please contribute by posting issues or pull requests on the extension's [github repo](https://github.com/stevejpurves/vscode-cucumber)
 
-## Author
+## Maintainer
 
-This extension was built by Steve Purves (stevejpurves@gmail.com)
+This extension is maintained by Steve Purves (stevejpurves@gmail.com)
+
+## Contributors
+
+ - 

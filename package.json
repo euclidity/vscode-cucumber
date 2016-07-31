@@ -2,7 +2,7 @@
 	"name": "cucumber",
 	"version": "0.9.5",
 	"engines": {
-		"vscode": "^0.9.0-pre.1"
+		"vscode": "^0.10.0"
 	},
 	"displayName":"Cucumber (Gherkin) Syntax and Snippets",
 	"description":"Syntax and snippets for working with cucumber .feature files",
