@@ -41,4 +41,5 @@ This extension is maintained by Steve Purves (stevejpurves@gmail.com)
 
 ## Contributors
 
- - 
+ - John Burak (jvimes)
+ - Greg Ferreri (gferreri) 
