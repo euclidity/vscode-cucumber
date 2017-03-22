@@ -1,3 +1,7 @@
+# This project is looking for a Maintainer
+I started this project off but do not have time to maintain it. This extension is useful and could be really great with someone actively developing it. If someone would like to take on maintenance and ownership of this, please contact me. I'll be happy to give it a better home.
+
+
 # Cucumber
 Installs syntax and snippets for [Cucumber](http://www.cukes.info) features and the Gherkin language.
 
