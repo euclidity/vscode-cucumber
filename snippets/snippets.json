@@ -82,6 +82,54 @@
 		"description": "Cenário (Apenas o inicio)",
 		"scope": "text.gherkin.feature"
 	},
+	"cenario": {
+		"prefix": "cenario",
+		"body": ["Cenário: ${1:titulo}",
+				"\tDado ${2:contexto}",
+				"\tQuando ${3:evento}",
+				"\tEntão ${4:resultado}\r\n$0\r\n$0"],
+		"description": "Cenário Completo",
+		"scope": "text.gherkin.feature"
+	},
+	"esqc": {
+		"prefix": "esqc",
+		"body": ["Esquema do Cenário: ${1:titulo}",
+				"\tDado ${2:contexto}",
+				"\tQuando ${3:evento}",
+				"\tEntão ${4:resultado}"],
+		"description": "Esquema do Cenário",
+		"scope": "text.gherkin.feature"
+	},
+	"dado": {
+		"prefix": "dado",
+		"body": "Dado ${1:contexto}",
+		"description": "Step Quando (Texto simples)",
+		"scope": "text.gherkin.feature"
+	},
+	"quando": {
+		"prefix": "quando",
+		"body": "Quando ${1:evento}",
+		"description": "Step Quando (Texto Simples)",
+		"scope": "text.gherkin.feature"
+	},
+	"entao": {
+		"prefix": "entao",
+		"body": "Então ${1:resultado}",
+		"description": "Step Então (Texto Simples)",
+		"scope": "text.gherkin.feature"
+	},
+	"mas": {
+		"prefix": "mas",
+		"body": "Mas ${1:condição}",
+		"description": "Step Mas (Texto Simples)",
+		"scope": "text.gherkin.feature"
+	},
+	"e": {
+		"prefix": "e",
+		"body": "E ${1:condição}",
+		"description": "Step E (Texto Simples)",
+		"scope": "text.gherkin.feature"
+	},
 	"func": {
 		"prefix": "func",
 		"body": ["Funcionalidade: ${1:titulo}",
@@ -91,5 +139,30 @@
 				"\t$0"],
 		"description": "Funcionalidade",
 		"scope": "text.gherkin.feature"
+	},
+	"exemplos": {
+		"prefix": "exemplos",
+		"body": ["Exemplos:",
+				"\t|Cabeçalho 1|Cabeçalho 2|Cabeçalho 3|",
+				"\t|Conteúdo 1 |Conteúdo 2 |Conteúdo 3 |"],
+		"description": "Exemplo de uso de tabelas",
+		"scope": "text.gherkin.feature"
+	},
+	"funcionalidade_exemplo": {
+		"prefix": "funcionalidade_exemplo",
+		"body": ["Funcionalidade: ${1:titulo}",
+				"\tCom o objetivo de ${2:valor}",
+				"\tComo um ${3:funcao}",
+				"\tEu quero uma ${4:funcionalidade}\r\n",
+				"\tCenário: ${5:titulo}",
+				"\t\tDado ${6:contexto} <Cabeçalho 1>",
+				"\t\tQuando ${7:evento}",
+				"\t\tEntão ${8:resultado}\r\n",
+				"\tExemplos:",
+				"\t\t|Cabeçalho 1|Cabeçalho 2|Cabeçalho 3|",
+				"\t\t|Conteúdo 1 |Conteúdo 2 |Conteúdo 3 |"],
+		"description": "Funcionalidade completa",
+		"scope": "text.gherkin.feature"
 	}
+	
 }
