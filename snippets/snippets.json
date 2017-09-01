@@ -75,4 +75,21 @@
 		"description": "When Step (Ruby)",
 		"scope": "source.ruby.rspec.cucumber.steps"
 	},
+	//translation for portuguese
+	"cen": {
+		"prefix": "cen",
+		"body": "Cenário: ${1:titulo para o cenário}\r\n$0",
+		"description": "Cenário (Apenas o inicio)",
+		"scope": "text.gherkin.feature"
+	},
+	"func": {
+		"prefix": "func",
+		"body": ["Funcionalidade: ${1:titulo}",
+				"\tCom o objetivo de ${2:valor}",
+				"\tComo um ${3:funcao}",
+				"\tEu quero uma ${4:funcionalidade}\r\n",
+				"\t$0"],
+		"description": "Funcionalidade",
+		"scope": "text.gherkin.feature"
+	}
 }
