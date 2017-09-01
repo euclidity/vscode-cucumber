@@ -75,7 +75,6 @@
 		"description": "When Step (Ruby)",
 		"scope": "source.ruby.rspec.cucumber.steps"
 	},
-	//translation for portuguese
 	"cen": {
 		"prefix": "cen",
 		"body": "Cenário: ${1:titulo para o cenário}\r\n$0",
