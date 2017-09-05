@@ -20,6 +20,20 @@ Code snippets can be inserted as with other languages (e.g. Ctrl+Space and typin
  - `whe` - When step
  - `the` - Then step 
 
+ For Portuguese Language:
+
+ - `fun` - Feature
+ - `cen` - Scenario heading
+ - `cenario` - Scenario
+ - `esqc` - Scenario Outline
+ - `dado` - Given step
+ - `quando` - When step
+ - `entao` - Then step 
+ - `e` - And Step
+ - `mas` - But Step
+ - `exemplos` - Table Examples
+ - `funcionalidade_exemplo` - Complete Feature for example
+
 ## Installation
 
  - You will need to install Visual Studio Code 0.10.0 or higher.
