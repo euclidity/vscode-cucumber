@@ -26,9 +26,9 @@
 	"sco": {
 		"prefix": "sco",
 		"body": ["Scenario Outline: ${1:title}",
-				"\tGiven ${1:context}",
-				"\tWhen ${1:event}",
-				"\tThen ${1:outcome}"],
+				"\tGiven ${2:context}",
+				"\tWhen ${3:event}",
+				"\tThen ${4:outcome}"],
 		"description": "Scenario Outline",
 		"scope": "text.gherkin.feature"
 	},	
