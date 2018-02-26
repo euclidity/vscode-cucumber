@@ -7,7 +7,7 @@
 	"displayName": "Cucumber (Gherkin) Syntax and Snippets",
 	"description": "Syntax and snippets for working with cucumber .feature files",
 	"publisher": "stevejpurves",
-	"icon": "images/cukes.png",
+	"icon": "images/logo.png",
 	"galleryBanner": {
 		"color": "#CEF257",
 		"theme": "light"
