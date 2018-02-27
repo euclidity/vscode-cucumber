@@ -1,8 +1,5 @@
-# This project is looking for a Maintainer
-I started this project off but do not have time to maintain it. This extension is useful and could be really great with someone actively developing it. If someone would like to take on maintenance and ownership of this, please contact me. I'll be happy to give it a better home.
-
-
 # Cucumber
+
 Installs syntax and snippets for [Cucumber](http://www.cukes.info) features and the Gherkin language.
 
 ## How to use
@@ -11,39 +8,39 @@ Source files with the `.feature` extension will automatically have syntax colour
 
 Code snippets can be inserted as with other languages (e.g. Ctrl+Space and typing a prefix). The following are included:
 
- - `fea` - Feature
- - `sc` - Scenario heading
- - `sce` - Scenario
- - `sco` - Scenario Outline
- - `steps`- Multiline steps
- - `giv` - Given step
- - `whe` - When step
- - `the` - Then step 
+- `fea` - Feature
+- `sc` - Scenario heading
+- `sce` - Scenario
+- `sco` - Scenario Outline
+- `steps`- Multiline steps
+- `giv` - Given step
+- `whe` - When step
+- `the` - Then step
 
  For Portuguese Language:
 
- - `fun` - Feature
- - `cen` - Scenario heading
- - `cenario` - Scenario
- - `esqc` - Scenario Outline
- - `dado` - Given step
- - `quando` - When step
- - `entao` - Then step 
- - `e` - And Step
- - `mas` - But Step
- - `exemplos` - Table Examples
- - `funcionalidade_exemplo` - Complete Feature for example
+- `fun` - Feature
+- `cen` - Scenario heading
+- `cenario` - Scenario
+- `esqc` - Scenario Outline
+- `dado` - Given step
+- `quando` - When step
+- `entao` - Then step
+- `e` - And Step
+- `mas` - But Step
+- `exemplos` - Table Examples
+- `funcionalidade_exemplo` - Complete Feature for example
 
 ## Installation
 
- - You will need to install Visual Studio Code 0.10.0 or higher.
- - From the command palette Ctrl-Shift-P (Windows, Linux) or Cmd-Shift-P (OSX) select Install Extension, choose Cucumber and reload Visual Studio Code.
+- You will need to install Visual Studio Code 0.10.0 or higher.
+- From the command palette Ctrl-Shift-P (Windows, Linux) or Cmd-Shift-P (OSX) select Install Extension, choose Cucumber and reload Visual Studio Code.
 
 ## Todo
 
- - Goto/peek step definition from a step in .feature file
- - `and` steps
- - `but` steps
+- Goto/peek step definition from a step in .feature file
+- `and` steps
+- `but` steps
 
 ## Acknowledgements
 
@@ -59,4 +56,4 @@ This extension is maintained by Steve Purves (stevejpurves@gmail.com)
 
 ## Contributors
 
- - 
+- TODO: UPDATE THIS
