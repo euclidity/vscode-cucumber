@@ -38,8 +38,11 @@ Code snippets can be inserted as with other languages (e.g. Ctrl+Space and typin
 
 ## Install
 
-- You will need to install Visual Studio Code 0.10.0 or higher.
-- From the command palette Ctrl-Shift-P (Windows, Linux) or Cmd-Shift-P (OSX) select Install Extension, choose Cucumber and reload Visual Studio Code.
+Given you have [Visual Studio Code](https://code.visualstudio.com/) installed:
+
+1. Open the command palette `Ctrl-Shift-P` (Windows, Linux) or `Cmd-Shift-P` (macOS).
+2. Select **Install Extension**, search for **Cucumber (Gherkin) Syntax and Snippets**, install it.
+3. Finally, reload Visual Studio Code.
 
 ## Contribute
 
