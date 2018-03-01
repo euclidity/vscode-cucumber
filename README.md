@@ -58,7 +58,7 @@ Feel free to help us improve this extension with pull requests at our [official 
 
 - Author: [Steve Purves](mailto:stevejpurves@gmail.com)
 - Maintainer: [Diogo Nunes](https://github.com/dialex)
-- Contributors: [(this amazing people)](https://github.com/stevejpurves/vscode-cucumber/graphs/contributors)
+- Contributors: [(these amazing people)](https://github.com/stevejpurves/vscode-cucumber/graphs/contributors)
 
 ### Dependencies
 
