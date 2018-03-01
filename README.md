@@ -52,13 +52,13 @@ Feel free to help us improve this extension with pull requests at our [official 
 
 ## Acknowledgements
 
-👏 Our big thanks to our contributors and to other libraries and resources we used to develop this extension. 👏
+👏 Our big thanks to our contributors and to other libraries and resources we used to develop this extension 👏
 
 ### Team
 
 - Author: [Steve Purves](mailto:stevejpurves@gmail.com)
 - Maintainer: [Diogo Nunes](https://github.com/dialex)
-- Contributors: [(these amazing persons)](https://github.com/stevejpurves/vscode-cucumber/graphs/contributors)
+- Contributors: [(this amazing people)](https://github.com/stevejpurves/vscode-cucumber/graphs/contributors)
 
 ### Dependencies
 
