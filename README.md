@@ -1,9 +1,11 @@
-# This project is looking for a Maintainer
-I started this project off but do not have time to maintain it. This extension is useful and could be really great with someone actively developing it. If someone would like to take on maintenance and ownership of this, please contact me. I'll be happy to give it a better home.
+![](images/cukes.png)
 
+# Cucumber (Gherkin) Syntax and Snippets
 
-# Cucumber
-Installs syntax and snippets for [Cucumber](http://www.cukes.info) features and the Gherkin language.
+A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber) for [Cucumber](https://cucumber.io/) projects that:
+
+- enables syntax highlight for  `.feature` files;
+- offers code snippets or templates to write `Gherkin` scenarios faster.
 
 ## How to use
 
@@ -11,52 +13,53 @@ Source files with the `.feature` extension will automatically have syntax colour
 
 Code snippets can be inserted as with other languages (e.g. Ctrl+Space and typing a prefix). The following are included:
 
- - `fea` - Feature
- - `sc` - Scenario heading
- - `sce` - Scenario
- - `sco` - Scenario Outline
- - `steps`- Multiline steps
- - `giv` - Given step
- - `whe` - When step
- - `the` - Then step 
+- `fea` - Feature
+- `sc` - Scenario heading
+- `sce` - Scenario
+- `sco` - Scenario Outline
+- `steps`- Multiline steps
+- `giv` - Given step
+- `whe` - When step
+- `the` - Then step
 
  For Portuguese Language:
 
- - `fun` - Feature
- - `cen` - Scenario heading
- - `cenario` - Scenario
- - `esqc` - Scenario Outline
- - `dado` - Given step
- - `quando` - When step
- - `entao` - Then step 
- - `e` - And Step
- - `mas` - But Step
- - `exemplos` - Table Examples
- - `funcionalidade_exemplo` - Complete Feature for example
+- `fun` - Feature
+- `cen` - Scenario heading
+- `cenario` - Scenario
+- `esqc` - Scenario Outline
+- `dado` - Given step
+- `quando` - When step
+- `entao` - Then step
+- `e` - And Step
+- `mas` - But Step
+- `exemplos` - Table Examples
+- `funcionalidade_exemplo` - Complete Feature for example
 
-## Installation
+## Install
 
- - You will need to install Visual Studio Code 0.10.0 or higher.
- - From the command palette Ctrl-Shift-P (Windows, Linux) or Cmd-Shift-P (OSX) select Install Extension, choose Cucumber and reload Visual Studio Code.
+Given you have [Visual Studio Code](https://code.visualstudio.com/) installed:
 
-## Todo
+1. Open the command palette `Ctrl-Shift-P` (Windows, Linux) or `Cmd-Shift-P` (macOS).
+2. Select **Install Extension**, search for **Cucumber (Gherkin) Syntax and Snippets**, install it.
+3. Finally, reload Visual Studio Code.
 
- - Goto/peek step definition from a step in .feature file
- - `and` steps
- - `but` steps
+## Contribute
+
+Feature requests or issue reports should be done [here](https://github.com/stevejpurves/vscode-cucumber/issues).
+
+Feel free to help us improve this extension with pull requests at our [official repository](https://github.com/stevejpurves/vscode-cucumber).
 
 ## Acknowledgements
 
-This extension uses the TextMate Syntax and Snippet definitions for Cucumber from [this project](https://github.com/cucumber/cucumber-tmbundle). This extenion is provided thanks to the efforts of the contributors there.
+👏 Our big thanks to our contributors and to other libraries and resources we used to develop this extension 👏
 
-## Contributions
+### Team
 
-Please contribute by posting issues or pull requests on the extension's [github repo](https://github.com/stevejpurves/vscode-cucumber)
+- Author: [Steve Purves](mailto:stevejpurves@gmail.com)
+- Maintainer: [Diogo Nunes](https://github.com/dialex)
+- Contributors: [(these amazing people)](https://github.com/stevejpurves/vscode-cucumber/graphs/contributors)
 
-## Maintainer
+### Dependencies
 
-This extension is maintained by Steve Purves (stevejpurves@gmail.com)
-
-## Contributors
-
- - 
+- [TextMate Syntax and Snippet definitions for Cucumber](https://github.com/cucumber/cucumber-tmbundle)
