@@ -1,4 +1,4 @@
-![](images/cukes.png)
+![](images/logo.png)
 
 # Cucumber (Gherkin) Syntax and Snippets
 
