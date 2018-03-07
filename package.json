@@ -1,6 +1,6 @@
 {
 	"name": "cucumber",
-	"version": "0.9.5",
+	"version": "0.10.1",
 	"engines": {
 		"vscode": "^0.10.0"
 	},
