@@ -1,4 +1,4 @@
-![](images/logo.png)
+![](https://raw.githubusercontent.com/stevejpurves/vscode-cucumber/master/images/logo.png)
 
 # Cucumber (Gherkin) Syntax and Snippets
 
