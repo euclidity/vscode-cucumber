@@ -5,20 +5,11 @@ node_js:
 env:
   - IS_CI=true
 
-stages:
-  - build
-  # - name: publish
-  #   if: branch = master
-
 install:
   - ./ci-install.sh
 
-jobs:
-  include:
-    - stage: build
-      script: ./ci-build.sh
-    - stage: publish
-      script: ./ci-publish.sh
+script:
+ - ./ci-build.sh
 
 notifications:
   email:
