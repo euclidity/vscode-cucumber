@@ -1,9 +1,12 @@
 # Changelog
 
-## 0.10
+## 0.11
 
 - Continuous integration. Each commit to `master` triggers a build on Travis. If it succeeds, it publishes a new release in the marketplace.
-- Rebranding. New logo, new name.
+
+## 0.10
+
+- Rebranding. New logo, new name, new description... all that metadata stuff.
 
 ## 0.9
 
