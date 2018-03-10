@@ -1,58 +1,58 @@
 {
-	"name": "cucumber",
-	"version": "0.9.5",
-	"engines": {
-		"vscode": "^0.10.0"
-	},
-	"displayName": "Cucumber (Gherkin) Syntax and Snippets",
-	"description": "Syntax and snippets for working with cucumber .feature files",
-	"publisher": "stevejpurves",
-	"icon": "images/logo.png",
-	"galleryBanner": {
-		"color": "#CEF257",
-		"theme": "light"
-	},
-	"bugs": {
-		"url": "https://github.com/stevejpurves/vscode-cucumber/issues"
-	},
-	"homepage": "https://github.com/stevejpurves/vscode-cucumber/blob/master/README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/stevejpurves/vscode-cucumber.git"
-	},
-	"categories": [
-		"Languages",
-		"Snippets"
-	],
-	"activationEvents": [
-		"onLanguage:feature"
-	],
-	"main": "./extension.js",
-	"contributes": {
-		"languages": [
-			{
-				"id": "feature",
-				"aliases": [
-					"Gherkin",
-					"feature"
-				],
-				"extensions": [
-					".feature"
-				]
-			}
-		],
-		"grammars": [
-			{
-				"language": "feature",
-				"scopeName": "text.gherkin.feature",
-				"path": "./syntaxes/feature.tmLanguage"
-			}
-		],
-		"snippets": [
-			{
-				"language": "feature",
-				"path": "./snippets/snippets.json"
-			}
-		]
-	}
+    "name": "cucumber",
+    "version": "0.11.1",
+    "engines": {
+        "vscode": "^0.10.0"
+    },
+    "displayName": "Snippets and Syntax Highlight for Gherkin",
+    "description": "Code snippets to write scenarios faster + Syntax highlight for .feature files",
+    "publisher": "stevejpurves",
+    "icon": "images/logo.png",
+    "galleryBanner": {
+        "color": "#512DA8",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/stevejpurves/vscode-cucumber/issues"
+    },
+    "homepage": "https://github.com/stevejpurves/vscode-cucumber/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stevejpurves/vscode-cucumber.git"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "activationEvents": [
+        "onLanguage:feature"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "languages": [
+            {
+                "id": "feature",
+                "aliases": [
+                    "Gherkin",
+                    "feature"
+                ],
+                "extensions": [
+                    ".feature"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "feature",
+                "scopeName": "text.gherkin.feature",
+                "path": "./syntaxes/feature.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "feature",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
 }

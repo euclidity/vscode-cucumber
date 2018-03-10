@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "node"
+
+env:
+  - IS_CI=true
+
+install:
+  - ./ci-install.sh
+
+script:
+ - ./ci-build.sh
+
+notifications:
+  email:
+    on_failure: always
+    on_success: never

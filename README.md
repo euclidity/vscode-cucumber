@@ -1,5 +1,3 @@
-![](images/logo.png)
-
 # Cucumber (Gherkin) Syntax and Snippets
 
 A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber) for [Cucumber](https://cucumber.io/) projects that:
@@ -9,9 +7,9 @@ A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marke
 
 ## How to use
 
-Source files with the `.feature` extension will automatically have syntax colouring applied. Otherwise select the `Gherkin` option from the Language Mode menu to apply colouring.
+The syntax highlight is applied automatically to `.feature` files. If that doesn't happen, you can open the **Command Pallete**, type **Change Language Mode** and select the `Gherkin`.
 
-Code snippets can be inserted as with other languages (e.g. Ctrl+Space and typing a prefix). The following are included:
+To use snippets you just need to type the prefix and press `Tab`. These are the snippets we provide:
 
 - `fea` - Feature
 - `sc` - Scenario heading
@@ -21,20 +19,6 @@ Code snippets can be inserted as with other languages (e.g. Ctrl+Space and typin
 - `giv` - Given step
 - `whe` - When step
 - `the` - Then step
-
- For Portuguese Language:
-
-- `fun` - Feature
-- `cen` - Scenario heading
-- `cenario` - Scenario
-- `esqc` - Scenario Outline
-- `dado` - Given step
-- `quando` - When step
-- `entao` - Then step
-- `e` - And Step
-- `mas` - But Step
-- `exemplos` - Table Examples
-- `funcionalidade_exemplo` - Complete Feature for example
 
 ## Install
 
