@@ -2,13 +2,25 @@ language: node_js
 node_js:
   - "node"
 
+env:
+  - IS_CI=true
+
+stages:
+  - build
+  # - name: publish
+  #   if: branch = master
+
 install:
   - ./ci-install.sh
 
-script:
-  - ./ci-build.sh
+jobs:
+  include:
+    - stage: build
+      script: ./ci-build.sh
+    - stage: publish
+      script: ./ci-publish.sh
 
 notifications:
-  - email:
-    - on_failure: always
-    - on_success: never
+  email:
+    on_failure: always
+    on_success: never
