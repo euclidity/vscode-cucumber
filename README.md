@@ -1,5 +1,3 @@
-![](https://raw.githubusercontent.com/stevejpurves/vscode-cucumber/master/images/logo.png)
-
 # Cucumber (Gherkin) Syntax and Snippets
 
 A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber) for [Cucumber](https://cucumber.io/) projects that:
