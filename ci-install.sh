@@ -3,5 +3,5 @@
 
 source ./ci-helpers.sh
 
-log_task "Install publishing tool"
+log_task "Install tool dependencies"
 run_step "npm install -g vsce"
