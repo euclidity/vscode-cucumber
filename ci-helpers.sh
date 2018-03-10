@@ -26,11 +26,11 @@ blue=`tput setaf 6`
 reset=`tput sgr0`
 
 function echo_red {
-    echo "${red}${1}${reset}"
+    echo "${red}✘ ${1}${reset}"
 }
 
 function echo_green {
-    echo "${green}${1}${reset}"
+    echo "${green}✔ ${1}${reset}"
 }
 
 function echo_yellow {
