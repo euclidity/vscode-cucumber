@@ -22,4 +22,4 @@ else
     echo_green "Found a build at '$package_path'"
 fi
 
-eval "vsce publish -p $PUBLISHER_TOKEN"
+eval "vsce publish -p $PUBLISHER_TOKEN patch"
