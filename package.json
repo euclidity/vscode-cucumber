@@ -1,10 +1,10 @@
 {
     "name": "cucumber",
-    "version": "0.11.1",
+    "version": "0.11.4",
     "engines": {
         "vscode": "^0.10.0"
     },
-    "displayName": "Snippets and Syntax Highlight for Gherkin",
+    "displayName": "Snippets and Syntax Highlight for Gherkin (Cucumber)",
     "description": "Code snippets to write scenarios faster + Syntax highlight for .feature files",
     "publisher": "stevejpurves",
     "icon": "images/logo.png",
@@ -13,16 +13,24 @@
         "theme": "dark"
     },
     "bugs": {
-        "url": "https://github.com/stevejpurves/vscode-cucumber/issues"
+        "url": "https://github.com/euclidity/vscode-cucumber/issues"
     },
-    "homepage": "https://github.com/stevejpurves/vscode-cucumber/blob/master/README.md",
+    "homepage": "https://github.com/euclidity/vscode-cucumber/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/stevejpurves/vscode-cucumber.git"
+        "url": "https://github.com/euclidity/vscode-cucumber.git"
     },
     "categories": [
+        "Snippets",
         "Languages",
-        "Snippets"
+        "Formatters"
+    ],
+    "keywords": [
+        "gherkin",
+        "cucumber",
+        "snippet",
+        "template",
+        "syntax highlight"
     ],
     "activationEvents": [
         "onLanguage:feature"
