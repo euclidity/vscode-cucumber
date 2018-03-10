@@ -2,7 +2,7 @@
 
 ## 0.11
 
-- Continuous integration. Each commit to `master` triggers a build on Travis. If it succeeds, it publishes a new release in the marketplace.
+- Continuous Integration. Each commit to `master` triggers a build on Travis. ~~If it succeeds, it publishes a new release in the marketplace.~~
 
 ## 0.10
 
