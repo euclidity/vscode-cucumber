@@ -1,0 +1,34 @@
+# Editor Config File
+# Top-most EditorConfig file
+root = true
+# Rules that apply to all files
+[*]
+charset = utf-8
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# for shell scripts always use lf line endings
+[*.{sh,bash}]
+end_of_line = lf
+indent_size = 4
+
+# For shell scripts on windows:
+[*.{bat,cmd,ps1}]
+end_of_line = crlf
+
+# Vscode likes json to use tabs typically
+[*.{json,code-workspace}]
+indent_style = tab
+
+# this one has space based indentation
+[package.json]
+indent_style = space
+
+# Build and output files shouldn't use editorconfig
+# Turn off all settings for output files.
+[**/{node_modules,out,dist}/**/*]
+charset = unset
+trim_trailing_whitespace = unset
+indent_style = unset
+indent_size = unset

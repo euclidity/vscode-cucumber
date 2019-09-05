@@ -11,7 +11,7 @@
 		"description": "When Step (Plaintext)",
 		"scope": "text.gherkin.feature"
 	},
-    "giv-rb": {
+	"giv-rb": {
 		"prefix": "giv",
 		"body": "Given ${1:step name} do\r\n  $0\r\nend",
 		"description": "Given Step (Ruby)",
