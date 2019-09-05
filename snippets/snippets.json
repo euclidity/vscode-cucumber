@@ -28,7 +28,8 @@
 		"body": ["Scenario Outline: ${1:title}",
 				"\tGiven ${2:context}",
 				"\tWhen ${3:event}",
-				"\tThen ${4:outcome}"],
+				"\tThen ${4:outcome}\r\n",
+                "$0"],
 		"description": "Scenario Outline",
 		"scope": "text.gherkin.feature"
 	},
@@ -37,7 +38,8 @@
 		"body": ["Scenario: ${1:title}",
 				"\tGiven ${2:context}",
 				"\tWhen ${3:event}",
-				"\tThen ${4:outcome}\r\n$0\r\n$0"],
+				"\tThen ${4:outcome}\r\n",
+                "$0"],
 		"description": "Scenario",
 		"scope": "text.gherkin.feature"
 	},
