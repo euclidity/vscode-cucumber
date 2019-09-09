@@ -1,5 +1,7 @@
 # Cucumber (Gherkin) Syntax and Snippets
 
+[![Build Status](https://travis-ci.org/euclidity/vscode-cucumber.svg?branch=master)](https://travis-ci.org/euclidity/vscode-cucumber)
+
 A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber) for [Cucumber](https://cucumber.io/) projects that:
 
 - enables syntax highlight for  `.feature` files;
