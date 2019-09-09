@@ -9,7 +9,7 @@ install:
   - ./ci-install.sh
 
 script:
- - ./ci-build.sh
+  - ./ci-build.sh
 
 notifications:
   email:
