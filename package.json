@@ -53,7 +53,10 @@
             {
                 "language": "feature",
                 "scopeName": "text.gherkin.feature",
-                "path": "./syntaxes/feature.tmLanguage"
+                "path": "./syntaxes/feature.tmLanguage",
+                "injectTo": [
+                    "text.html.markdown"
+                ]
             }
         ],
         "snippets": [
