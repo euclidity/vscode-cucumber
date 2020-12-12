@@ -4,7 +4,7 @@
 
 A [Visual Studio Code](https://code.visualstudio.com/) [extension](https://marketplace.visualstudio.com/items?itemName=stevejpurves.cucumber) for [Cucumber](https://cucumber.io/) projects that:
 
-- enables syntax highlight for  `.feature` files;
+- enables syntax highlight for `.feature` files;
 - offers code snippets or templates to write `Gherkin` scenarios faster.
 
 ## How to use
