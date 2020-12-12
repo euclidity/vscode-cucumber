@@ -22,4 +22,12 @@ else
     echo_green "Found a build at '$package_path'"
 fi
 
-eval "vsce publish -p $PUBLISHER_TOKEN patch"
+if [ $# -eq 0 ] || [ "$1" = "" ]; then
+    echo "Expected parameter with version number"
+    exit 1;
+else
+    target_version=$1
+    echo_green "Publishing version $1"
+fi
+
+eval "vsce publish -p $PUBLISHER_TOKEN $target_version"
