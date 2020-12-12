@@ -1,66 +1,69 @@
 {
-    "name": "cucumber",
-    "version": "0.13.3",
-    "engines": {
-        "vscode": "^0.10.0"
-    },
-    "displayName": "Snippets and Syntax Highlight for Gherkin (Cucumber)",
-    "description": "Code snippets to write scenarios faster + Syntax highlight for .feature files",
-    "publisher": "stevejpurves",
-    "icon": "images/logo.png",
-    "galleryBanner": {
-        "color": "#512DA8",
-        "theme": "dark"
-    },
-    "bugs": {
-        "url": "https://github.com/euclidity/vscode-cucumber/issues"
-    },
-    "homepage": "https://github.com/euclidity/vscode-cucumber/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/euclidity/vscode-cucumber.git"
-    },
-    "categories": [
-        "Snippets",
-        "Languages",
-        "Formatters"
-    ],
-    "keywords": [
-        "gherkin",
-        "cucumber",
-        "snippet",
-        "template",
-        "syntax highlight"
-    ],
-    "activationEvents": [
-        "onLanguage:feature"
-    ],
-    "main": "./extension.js",
-    "contributes": {
-        "languages": [
-            {
-                "id": "feature",
-                "aliases": [
-                    "Gherkin",
-                    "feature"
-                ],
-                "extensions": [
-                    ".feature"
-                ]
-            }
+  "name": "cucumber",
+  "version": "0.13.1",
+  "engines": {
+    "vscode": "^0.10.0"
+  },
+  "displayName": "Snippets and Syntax Highlight for Gherkin (Cucumber)",
+  "description": "Code snippets to write scenarios faster + Syntax highlight for .feature files",
+  "publisher": "stevejpurves",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#512DA8",
+    "theme": "dark"
+  },
+  "bugs": {
+    "url": "https://github.com/euclidity/vscode-cucumber/issues"
+  },
+  "homepage": "https://github.com/euclidity/vscode-cucumber/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/euclidity/vscode-cucumber.git"
+  },
+  "categories": [
+    "Snippets",
+    "Languages",
+    "Formatters"
+  ],
+  "keywords": [
+    "gherkin",
+    "cucumber",
+    "snippet",
+    "template",
+    "syntax highlight"
+  ],
+  "activationEvents": [
+    "onLanguage:feature"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "feature",
+        "aliases": [
+          "Gherkin",
+          "feature"
         ],
-        "grammars": [
-            {
-                "language": "feature",
-                "scopeName": "text.gherkin.feature",
-                "path": "./syntaxes/feature.tmLanguage"
-            }
-        ],
-        "snippets": [
-            {
-                "language": "feature",
-                "path": "./snippets/snippets.json"
-            }
+        "extensions": [
+          ".feature"
         ]
-    }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "feature",
+        "scopeName": "text.gherkin.feature",
+        "path": "./syntaxes/feature.tmLanguage",
+        "injectTo": [
+          "text.html.markdown"
+        ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "feature",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
