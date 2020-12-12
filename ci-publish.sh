@@ -5,6 +5,7 @@ source ./ci-helpers.sh
 
 log_task "Publish the latest version of the extension"
 
+SECRETS=publish/personal.secret && test -f $SECRETS && source $SECRETS
 if [ "$PUBLISHER_TOKEN" = "" ]; then
     echo_red "To publish the extension you need a personal token";
     echo_red "The environment variable PUBLISHER_TOKEN should have the value of your personal token";
