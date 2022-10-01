@@ -8,7 +8,7 @@
 	"giv": {
 		"prefix": "giv",
 		"body": "Given ${1:context}",
-		"description": "When Step (Plaintext)",
+		"description": "Given Step (Plaintext)",
 		"scope": "text.gherkin.feature"
 	},
 	"giv-rb": {
@@ -76,5 +76,17 @@
 		"body": "When ${1:step name} do\r\n  $0\r\nend",
 		"description": "When Step (Ruby)",
 		"scope": "source.ruby.rspec.cucumber.steps"
+	},
+	"an": {
+		"prefix": "an",
+		"body": "And ${1:outcome}",
+		"description": "And Step (Plaintext)",
+		"scope": "text.gherkin.feature"
+	},
+	"bu": {
+		"prefix": "bu",
+		"body": "But ${1:outcome}",
+		"description": "But Step (Plaintext)",
+		"scope": "text.gherkin.feature"
 	}
 }
