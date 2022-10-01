@@ -1,7 +1,22 @@
 {
-    "version": "0.1.0",
+    "version": "2.0.0",
     "command": "npm",
-    "isShellCommand": true,
-    "args": ["run compile"],
-    "showOutput": "always"
+    "args": [
+        "run compile"
+    ],
+    "tasks": [
+        {
+            "label": "npm",
+            "type": "shell",
+            "command": "npm",
+            "args": [
+                "run compile"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        }
+    ]
 }
