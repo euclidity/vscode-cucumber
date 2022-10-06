@@ -57,6 +57,13 @@
         "injectTo": [
           "text.html.markdown"
         ]
+      },
+      {
+        "scopeName": "markdown.feature.codeblock",
+        "path": "./syntaxes/codeblock.json",
+        "injectTo": [
+          "text.html.markdown"
+        ]
       }
     ],
     "snippets": [
